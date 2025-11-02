@@ -1,0 +1,19 @@
+Package: treatEst
+Type: Package
+Title: Covariate Balancing Estimation of ATE, CATE, and QTE
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Katherine", "Zhang",
+      email = "zz4404@nyu.edu",
+      role = c("aut", "cre")
+    )
+  )
+Description: Implements estimation of average, conditional average, and quantile treatment effects with covariate balancing and doubly robust estimators.
+    Continuation lines should be indented.
+License: Gurobi
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
